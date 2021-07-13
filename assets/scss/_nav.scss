@@ -34,7 +34,7 @@
     &__menu {
         position: relative;
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 1067px) {
             position: fixed;
             background-color: var(--body-color);
             top: 0;
@@ -109,6 +109,20 @@
 
 .header {
     .nav {
+        .nav__menu {
+            margin-left: 160px;
+
+            .nav__list {
+                .nav__item {
+
+                    .nav__link-3,
+                    .nav__link-4 {
+                        display: none;
+
+                    }
+                }
+            }
+        }
         .nav-right {
             ul {
                 display: flex;
@@ -120,10 +134,6 @@
 
                     .nav__link-2 {
                         @extend .button-1;
-                    }
-
-                    .nav__link {
-                        &:nth-child(2) {}
                     }
                 }
             }

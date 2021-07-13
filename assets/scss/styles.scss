@@ -7,6 +7,8 @@
 @import 'scroll';
 @import 'nav';
 @import 'index';
+@import 'indexTab';
+@import 'indexMob';
 @import 'subscribe';
 @import 'footer';
 
@@ -40,7 +42,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1068px) {
     body {
         margin: 0;
     }
@@ -53,7 +55,8 @@
             text-transform: initial;
 
             &:hover {
-                color: var(--white-color);
+                // color: red;
+                // text-decoration: underline;
             }
         }
 
@@ -152,6 +155,6 @@
 
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1024px;
+        max-width: 90%;
     }
 }
