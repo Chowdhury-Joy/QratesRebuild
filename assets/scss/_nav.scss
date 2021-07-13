@@ -140,3 +140,43 @@
         }
     }
 }
+@media all and (max-width:500px) {
+    .header {
+        .nav {
+            a {
+                img {
+                    width: 60%;
+                    height: 60%;
+                }
+            }
+
+            .nav__menu {
+                margin-left: 160px;
+
+                .nav__list {
+                    .nav__item {
+
+                        .nav__link-3,
+                        .nav__link-4 {
+                            display: block;
+
+                        }
+                    }
+                }
+            }
+
+            .nav-right {
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .nav__item {
+                        display: none;
+
+                    }
+                }
+            }
+        }
+    }
+}
