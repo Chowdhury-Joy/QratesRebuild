@@ -96,76 +96,7 @@ main {
 
     //?? fans option starts
 
-    .fans-option {
-        position: relative;
-        height: 100vh;
 
-        &::-webkit-scrollbar {
-            width: 0;
-        }
-
-        .navigation-wrapper {
-            .project-preview-wrapper {
-                //fixed
-                position: absolute;
-
-                .project-preview {
-                    //fixed
-                    position: relative;
-                    top: 0%;
-                    left: 0%;
-                    width: 100vw;
-                    height: 100vh;
-                    background-image: url(img-9.jpg) no-repeat 50% 50%;
-                    background-size: cover;
-                    overflow: hidden;
-                }
-            }
-
-            .navigation-list {
-
-                position: relative;
-                top: 5%;
-
-                .project-overlay {}
-
-                .navigation-item {
-                    display: block;
-                    user-select: none;
-                    margin: 0;
-
-                    span {
-                        &:before {
-                            width: 0;
-                            color: #ffffff;
-                            overflow: hidden;
-                            position: absolute;
-                            content: attr(data-text);
-                            transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
-                        }
-
-                        &:hover {
-                            &:before {
-                                width: 100%;
-                            }
-                        }
-                    }
-                }
-
-                .navigation-link {
-                    font-family: "Cosi Azure";
-                    font-size: 50px;
-                    text-decoration: none;
-                    color: rgba(255, 255, 255, 0.3);
-
-                    span {
-                        position: relative;
-                        display: block;
-                    }
-                }
-            }
-        }
-    }
 
 
 
@@ -179,31 +110,30 @@ main {
         // background-repeat: no-repeat;
         // background-size: cover;
         // background-position: center;
-    }
+        ul {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            transform: translateY(-50%);
 
-    ul {
-        position: absolute;
-        top: 30%;
-        left: 10%;
-        transform: translateY(-50%);
+            li {
+                list-style: none;
 
-        li {
-            list-style: none;
-
-            a {
-                color: #fff;
-                font-size: 3em;
-                font-weight: 700;
-                text-decoration: none;
-            }
-
-            &:hover {
                 a {
-                    color: rgb(226, 211, 211);
-                    text-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+                    color: #fff;
+                    font-size: 3em;
+                    font-weight: 700;
+                    text-decoration: none;
                 }
-            }
-        }
+
+                &:hover {
+                    a {
+                        color: rgb(226, 211, 211);
+                        text-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+                    }
+                }
+                }
+                }
     }
 
     //?? For fans-limited starts
@@ -289,92 +219,114 @@ main {
     //?? studio swiper starts
 
     .studio-swiper {
-        text-align: center;
+        // height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+        background-color: #000;
+        color: #fff;
 
-        .studio-swiper-1 {}
+        .studio-swiper-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .std-swi-1-top {
+                // text-align: center;
+                @extend .button-2;
+                border: 2px solid #fff;
+            }
+
+            .std-swi-1-tit {
+                padding: 50px 0;
+                font-size: 40px;
+                font-weight: 800;
+
+                span {
+                    display: block;
+                    position: relative;
+
+                    &::after {
+                        content: " ";
+                        display: block;
+                        position: absolute;
+                        width: 50%;
+                        height: 40px;
+                        bottom: -32px;
+                        right: 20px;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: top center;
+                        background-image: url(/assets/img/downafter.png);
+                    }
+                }
+            }
+
+            .std-swi-1-des {
+                padding-bottom: 50px;
+                font-size: 18px;
+                width: 800px;
+                    text-align: center;
+                }
+                }
 
         .studio-swiper-2 {
-            z-index: 10000000;
-
             #splide01 {
+                // visibility: visible;
                 .splide__arrows {
                     button {
                         visibility: hidden;
                     }
                 }
-
                 .splide__pagination {
                     visibility: hidden;
                 }
             }
         }
 
-        .studio-swiper-3 {}
-
-
+        .studio-swiper-3 {
+            .std-swi-3-try {
+                @extend .button-3;
+            }
+        }
     }
-
-    // .studio-swiper {
-    //     .swiper-container {
-    //         width: 100%;
-    //         height: 100%;
-
-    //         .swiper-wrapper {
-    //             .swiper-slide {
-    //                 text-align: center;
-    //                 font-size: 18px;
-    //                 background: #fff;
-    //                 display: flex;
-    //                 justify-content: center;
-    //                 align-items: center;
-
-    //                 img {}
-    //             }
-
-    //         }
-    //     }
-    // }
-
-
-
     .index-show {
         position: relative;
         display: grid;
-        margin-top: 800px;
+        // margin-top: 800px;
         grid-template-columns: repeat(auto-fit, 25%);
+        grid-auto-rows: minmax(300px, 330px);
+        overflow: hidden;
 
-        .ind-show-1 {
-            img {}
-        }
-
-        .ind-show-2 {
-            img {}
-        }
-
-        .ind-show-3 {
-            img {}
-        }
-
-        .ind-show-4 {
-            img {}
-        }
-
-        .ind-show-5 {
-            img {}
-        }
-
-        .ind-show-6 {
-            img {}
-        }
-
-        .ind-show-7 {
-            img {}
+        >* {
+            border: #000 1px solid;
         }
 
         .ind-show-8 {
-            .ind-show-8-top {}
+            position: relative;
+            background-color: #E280FF;
 
-            .ind-show-8-bot {}
+            .ind-show-8-top {
+                color: transparent;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #000;
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 20px 25px 0px 25px;
+                font-size: 36px;
+                font-weight: 900;
+                letter-spacing: 1.27px;
+                line-height: 1.1;
+            }
+
+            .ind-show-8-bot {
+                position: absolute;
+                bottom: 10px;
+                padding: 20px 25px 0px 25px;
+                font-weight: 900;
+            }
         }
     }
 }

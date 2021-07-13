@@ -220,7 +220,7 @@ input {
   background: none;
 }
 
-.button-1, .header .nav .nav-right ul .nav__item .nav__link-2, main .far-lim .far-lim-left .far-lim-left-opt .far-lim-left-opt-1, main .far-lim .far-lim-left .far-lim-left-opt .far-lim-left-opt-2 {
+.button-1, .button-3, main .studio-swiper .studio-swiper-3 .std-swi-3-try, .header .nav .nav-right ul .nav__item .nav__link-2, main .far-lim .far-lim-left .far-lim-left-opt .far-lim-left-opt-1, main .far-lim .far-lim-left .far-lim-left-opt .far-lim-left-opt-2 {
   background-color: #000;
   border: none;
   color: white;
@@ -231,13 +231,22 @@ input {
   font-size: 16px;
 }
 
-.button-2, main .far-lim .far-lim-left .far-lim-left-top {
+.button-2, main .far-lim .far-lim-left .far-lim-left-top, main .studio-swiper .studio-swiper-1 .std-swi-1-top {
   border: 2px black solid;
   width: 20%;
   text-align: center;
   padding: 10px;
   text-decoration: none;
   font-size: 14px;
+}
+
+.button-3, main .studio-swiper .studio-swiper-3 .std-swi-3-try {
+  margin: 50px 0;
+  border: 2px yellow solid;
+  background-color: #FFF804;
+  width: 150%;
+  color: black;
+  font-weight: 800;
 }
 
 /*========== SCROLL UP ==========*/
@@ -515,77 +524,13 @@ main .hero .hero-right .hero-ri-2 a {
 
 main .fans-option {
   position: relative;
-  height: 100vh;
-}
-
-main .fans-option::-webkit-scrollbar {
-  width: 0;
-}
-
-main .fans-option .navigation-wrapper .project-preview-wrapper {
-  position: absolute;
-}
-
-main .fans-option .navigation-wrapper .project-preview-wrapper .project-preview {
-  position: relative;
-  top: 0%;
-  left: 0%;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(img-9.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  overflow: hidden;
-}
-
-main .fans-option .navigation-wrapper .navigation-list {
-  position: relative;
-  top: 5%;
-}
-
-main .fans-option .navigation-wrapper .navigation-list .navigation-item {
-  display: block;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  margin: 0;
-}
-
-main .fans-option .navigation-wrapper .navigation-list .navigation-item span:before {
-  width: 0;
-  color: #ffffff;
-  overflow: hidden;
-  position: absolute;
-  content: attr(data-text);
-  -webkit-transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
-  transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
-}
-
-main .fans-option .navigation-wrapper .navigation-list .navigation-item span:hover:before {
-  width: 100%;
-}
-
-main .fans-option .navigation-wrapper .navigation-list .navigation-link {
-  font-family: "Cosi Azure";
-  font-size: 50px;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-main .fans-option .navigation-wrapper .navigation-list .navigation-link span {
-  position: relative;
-  display: block;
-}
-
-main .fans-option {
-  position: relative;
   min-height: 120vh;
   margin-top: 40px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
 
-main ul {
+main .fans-option ul {
   position: absolute;
   top: 30%;
   left: 10%;
@@ -593,18 +538,18 @@ main ul {
           transform: translateY(-50%);
 }
 
-main ul li {
+main .fans-option ul li {
   list-style: none;
 }
 
-main ul li a {
+main .fans-option ul li a {
   color: #fff;
   font-size: 3em;
   font-weight: 700;
   text-decoration: none;
 }
 
-main ul li:hover a {
+main .fans-option ul li:hover a {
   color: #e2d3d3;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -676,11 +621,68 @@ main .far-lim .far-lim-right img {
 }
 
 main .studio-swiper {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 80px;
+  background-color: #000;
+  color: #fff;
 }
 
-main .studio-swiper .studio-swiper-2 {
-  z-index: 10000000;
+main .studio-swiper .studio-swiper-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .studio-swiper .studio-swiper-1 .std-swi-1-top {
+  border: 2px solid #fff;
+}
+
+main .studio-swiper .studio-swiper-1 .std-swi-1-tit {
+  padding: 50px 0;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+main .studio-swiper .studio-swiper-1 .std-swi-1-tit span {
+  display: block;
+  position: relative;
+}
+
+main .studio-swiper .studio-swiper-1 .std-swi-1-tit span::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 40px;
+  bottom: -32px;
+  right: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  background-image: url(/assets/img/downafter.png);
+}
+
+main .studio-swiper .studio-swiper-1 .std-swi-1-des {
+  padding-bottom: 50px;
+  font-size: 18px;
+  width: 800px;
+  text-align: center;
 }
 
 main .studio-swiper .studio-swiper-2 #splide01 .splide__arrows button {
@@ -695,9 +697,40 @@ main .index-show {
   position: relative;
   display: -ms-grid;
   display: grid;
-  margin-top: 800px;
   -ms-grid-columns: (25%)[auto-fit];
       grid-template-columns: repeat(auto-fit, 25%);
+  grid-auto-rows: minmax(300px, 330px);
+  overflow: hidden;
+}
+
+main .index-show > * {
+  border: #000 1px solid;
+}
+
+main .index-show .ind-show-8 {
+  position: relative;
+  background-color: #E280FF;
+}
+
+main .index-show .ind-show-8 .ind-show-8-top {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 25px 0px 25px;
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 1.27px;
+  line-height: 1.1;
+}
+
+main .index-show .ind-show-8 .ind-show-8-bot {
+  position: absolute;
+  bottom: 10px;
+  padding: 20px 25px 0px 25px;
+  font-weight: 900;
 }
 
 /*=============== SUBSCRIBE ===============*/
@@ -809,6 +842,7 @@ main .index-show {
 
 .footer__link {
   color: var(--text-color);
+  text-transform: capitalize;
 }
 
 .footer__link:hover {

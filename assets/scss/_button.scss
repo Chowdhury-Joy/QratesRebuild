@@ -75,3 +75,12 @@
     text-decoration: none;
     font-size: 14px;
 }
+.button-3 {
+    @extend .button-1;
+    margin: 50px 0;
+    border: 2px yellow solid;
+    background-color: #FFF804;
+    width: 150%;
+    color: black;
+    font-weight: 800;
+}
