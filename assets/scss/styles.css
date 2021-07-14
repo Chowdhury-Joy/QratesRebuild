@@ -1095,7 +1095,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     letter-spacing: 0.95px;
     line-height: 50px;
     font-family: 'Clash Display', sans-serif;
-    width: 100%;
+    width: 90%;
   }
   main .hero .hero-left .hero-le-header span {
     color: transparent;
@@ -1153,30 +1153,8 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   }
   main .fans-option {
     position: relative;
-    min-height: 120vh;
+    min-height: 80vh;
     margin-top: 40px;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-  }
-  main .fans-option ul {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  main .fans-option ul li {
-    list-style: none;
-  }
-  main .fans-option ul li a {
-    color: #fff;
-    font-size: 3em;
-    font-weight: 700;
-    text-decoration: none;
-  }
-  main .fans-option ul li:hover a {
-    color: #e2d3d3;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   }
   main .far-lim {
     display: -webkit-box;
@@ -1193,7 +1171,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
         -ms-flex-order: 1;
             order: 1;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     padding: 5% 0 0 5%;
     position: relative;
     border: none;
@@ -1223,13 +1201,13 @@ main .index-show .ind-show-8 .ind-show-8-bot {
             flex-direction: column;
     position: absolute;
     bottom: 10%;
-    width: 100%;
+    width: 90%;
   }
   main .far-lim .far-lim-left .far-lim-left-opt .far-lim-left-opt-2 {
     background-color: transparent;
     color: #000;
     border: 2px solid #000;
-    margin-left: 30px;
+    margin: 10px 0 0 0;
     font-weight: 800;
   }
   main .far-lim .far-lim-right {
@@ -1257,7 +1235,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-top: 80px;
+    padding-top: 40px;
     background-color: #000;
     color: #fff;
   }
@@ -1275,10 +1253,11 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   }
   main .studio-swiper .studio-swiper-1 .std-swi-1-top {
     border: 2px solid #fff;
+    width: 40%;
   }
   main .studio-swiper .studio-swiper-1 .std-swi-1-tit {
-    padding: 50px 0;
-    font-size: 35px;
+    padding: 25px 0;
+    font-size: 30px;
     font-weight: 800;
     text-align: center;
   }
@@ -1286,30 +1265,22 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     display: block;
     position: relative;
   }
-  main .studio-swiper .studio-swiper-1 .std-swi-1-tit span::after {
-    content: " ";
-    display: block;
-    position: absolute;
-    width: 50%;
-    height: 40px;
-    bottom: -32px;
-    right: 20px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
-    background-image: url(/assets/img/downafter.png);
-  }
   main .studio-swiper .studio-swiper-1 .std-swi-1-des {
     padding-bottom: 50px;
     font-size: 16px;
-    width: 700px;
+    width: 80%;
     text-align: center;
   }
-  main .studio-swiper .studio-swiper-2 #splide01 .splide__arrows button {
-    visibility: hidden;
+  main .studio-swiper .studio-swiper-2 {
+    width: 80%;
   }
-  main .studio-swiper .studio-swiper-2 #splide01 .splide__pagination {
-    visibility: hidden;
+  main .studio-swiper .studio-swiper-3 {
+    display: block;
+    text-align: center;
+  }
+  main .studio-swiper .studio-swiper-3 .std-swi-3-try {
+    width: 120%;
+    padding: 15px 22px;
   }
   main .index-show {
     position: relative;
@@ -1317,7 +1288,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     display: grid;
     -ms-grid-columns: (50%)[auto-fit];
         grid-template-columns: repeat(auto-fit, 50%);
-    grid-auto-rows: minmax(300px, 330px);
+    grid-auto-rows: minmax(100px, 180px);
     overflow: hidden;
   }
   main .index-show > * {
@@ -1329,13 +1300,13 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   }
   main .index-show .ind-show-8 .ind-show-8-top {
     color: transparent;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20px 25px 0px 25px;
-    font-size: 36px;
+    padding: 12px 0px 0px 15px;
+    font-size: 20px;
     font-weight: 900;
     letter-spacing: 1.27px;
     line-height: 1.1;
@@ -1343,7 +1314,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   main .index-show .ind-show-8 .ind-show-8-bot {
     position: absolute;
     bottom: 10px;
-    padding: 20px 25px 0px 25px;
+    padding: 12px 0px 0px 15px;
     font-weight: 900;
   }
 }
