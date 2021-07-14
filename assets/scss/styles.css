@@ -1095,7 +1095,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     letter-spacing: 0.95px;
     line-height: 50px;
     font-family: 'Clash Display', sans-serif;
-    width: 250px;
+    width: 100%;
   }
   main .hero .hero-left .hero-le-header span {
     color: transparent;
@@ -1136,8 +1136,8 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   }
   main .hero .hero-right .hero-ri-2 {
     position: relative;
-    margin-top: 30%;
-    margin-right: 5%;
+    margin-top: 50%;
+    margin-left: 5%;
     color: #000;
     font-size: 16px;
     font-weight: bold;
@@ -1193,7 +1193,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
         -ms-flex-order: 1;
             order: 1;
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     padding: 5% 0 0 5%;
     position: relative;
     border: none;
@@ -1205,20 +1205,25 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     width: 40%;
   }
   main .far-lim .far-lim-left .far-lim-left-tit {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: bolder;
   }
   main .far-lim .far-lim-left .far-lim-left-des {
-    width: 70%;
-    font-size: 26px;
+    width: 90%;
+    font-size: 20px;
     font-family: 'Bespoke Serif', sans-serif;
   }
   main .far-lim .far-lim-left .far-lim-left-opt {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: absolute;
     bottom: 10%;
+    width: 100%;
   }
   main .far-lim .far-lim-left .far-lim-left-opt .far-lim-left-opt-2 {
     background-color: transparent;
@@ -1597,6 +1602,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 90%;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */
