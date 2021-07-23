@@ -1,0 +1,206 @@
+#discover {
+
+    //?? dis-choose stats
+
+    .dis-choose {
+        ul {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                >* {
+                    color: transparent;
+                    -webkit-text-stroke-width: 2px;
+                    -webkit-text-stroke-color: #000;
+                    text-decoration: none;
+                    font-size: 70px;
+                    font-weight: bolder;
+                }
+
+                .dis__dis {
+                    color: #000;
+                }
+
+                .dis__li {}
+
+                .dis__rec {}
+
+                .dis__sto {}
+            }
+        }
+    }
+
+
+
+    //?? dis-swip starts
+
+    .dis-swip {
+        height: 80vh;
+        position: relative;
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+
+            .swiper-wrapper {
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .swi-sli-left {
+                        width: 50%;
+                        border: 2px 1px 2px 0;
+
+                        img {
+                            width: 100%;
+                            height: 80vh;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .swi-sli-right {
+                        width: 50%;
+                        width: 50%;
+                        height: 80vh;
+                        display: flex;
+                        flex-direction: column;
+                        // justify-content: center;
+                        align-items: center;
+                        padding-top: 50px;
+
+
+                        .swi-sli-ri-top {
+                            @extend .button-2;
+                        }
+
+                        .swi-sli-ri-tit {
+                            font-size: 40px;
+                            // font-family: 'Cabinet Grotesk',
+                            //     sans-serif;
+                            font-weight: bolder;
+                            padding-top: 20px;
+
+                            .swi-sli-ri-tit-1 {}
+
+                            .swi-sli-ri-tit-2 {}
+                        }
+
+                        .swi-sli-ri-des {
+                            width: 80%;
+                            font-size: 26px;
+                            font-family: 'Bespoke Serif',
+                                sans-serif;
+                            padding-top: 20px;
+                        }
+
+                    }
+                }
+
+            }
+
+            .swiper-pagination {
+                position: absolute;
+                bottom: 20px;
+                left: 100px;
+            }
+        }
+
+        .swiper-pagination-bullet {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 26px;
+            font-size: 20px;
+            color: #000;
+            opacity: 1;
+            background: transparent;
+            border: #000 solid 1px;
+        }
+
+        .swiper-pagination-bullet-active {
+            color: #fff;
+            background: #000;
+        }
+    }
+
+
+    //?? dis-week starts
+
+
+
+    .dis-week {
+        display: flex;
+        flex-direction: column;
+        background-color: #8C5582;
+        border: #000 2px solid;
+
+        .dis-we-top {
+            display: flex;
+            justify-content: space-between;
+
+            .dis-we-top-left {
+                width: 100%;
+                padding: 20px 0 0 20px;
+
+                .dis-we-top-left-1 {
+                    @extend .button-2;
+                    width: 70%;
+                    background-color: #fff;
+                    font-weight: bolder;
+                }
+
+                .dis-we-top-left-2 {
+                    font-size: 50px;
+                    line-height: 40px;
+                    margin-top: 20px;
+                    font-weight: bolder;
+                }
+            }
+
+            .dis-we-top-right {
+                display: flex;
+                justify-content: flex-end;
+                padding: 20px 20px 0 0;
+
+                img {
+                    width: 15%;
+                }
+            }
+        }
+
+        .dis-we-mid {
+            text-align: center;
+
+            img {}
+        }
+
+        .dis-we-bot {
+            display: flex;
+            justify-content: space-between;
+
+            .dis-we-bot-left {
+                width: 60%;
+                width: 70%;
+                font-size: 20px;
+                font-family: 'Bespoke Serif',
+                    sans-serif;
+                padding: 0 0 20px 20px;
+
+            }
+
+            .dis-we-bot-right {
+                padding: 0 20px 20px 0;
+                text-decoration: underline;
+
+                a {
+                    color: #000;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}

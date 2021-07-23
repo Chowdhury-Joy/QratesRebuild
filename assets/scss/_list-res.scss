@@ -1,0 +1,43 @@
+@media all and (max-width:1050px) {
+    #lists {
+        .lists-choose {
+            ul {
+                li {
+                    >* {
+                        font-size: 60px;
+                    }
+                }
+            }
+        }
+
+        .list-grid {
+            .list-grid-all {
+                height: 350px;
+            }
+        }
+    }
+}
+
+@media all and (max-width:500px) {
+    #lists {
+        .lists-choose {
+            ul {
+                li {
+                    >* {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+
+        .list-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
+            .list-grid-all {
+                height: 350px;
+            }
+        }
+
+    }
+}

@@ -107,12 +107,6 @@ a {
   text-decoration: none;
 }
 
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
-
 button,
 input {
   border: none;
@@ -231,7 +225,33 @@ input {
   font-size: 16px;
 }
 
-.button-2, main .far-lim .far-lim-left .far-lim-left-top, main .studio-swiper .studio-swiper-1 .std-swi-1-top {
+.button-2, main .far-lim .far-lim-left .far-lim-left-top, main .studio-swiper .studio-swiper-1 .std-swi-1-top, #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-top, #discover .dis-week .dis-we-top .dis-we-top-left .dis-we-top-left-1, #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-img .grid-img-top {
   border: 2px black solid;
   width: 20%;
   text-align: center;
@@ -471,6 +491,7 @@ main .hero {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  margin-bottom: 50px;
 }
 
 main .hero .hero-extra {
@@ -597,6 +618,7 @@ main .far-lim {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 120vh;
 }
 
 main .far-lim .vinyl-right {
@@ -657,6 +679,7 @@ main .far-lim .far-lim-right {
 
 main .far-lim .far-lim-right img {
   height: 100%;
+  width: 100%;
 }
 
 main .studio-swiper {
@@ -740,6 +763,11 @@ main .index-show {
       grid-template-columns: repeat(auto-fit, 25%);
   grid-auto-rows: minmax(300px, 330px);
   overflow: hidden;
+}
+
+main .index-show img {
+  width: 100%;
+  height: auto;
 }
 
 main .index-show > * {
@@ -1465,6 +1493,1670 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 
 .footer__terms-link:hover {
   color: var(--text-color);
+}
+
+#discover .dis-choose ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#discover .dis-choose ul li > * {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  text-decoration: none;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+#discover .dis-choose ul li .dis__dis {
+  color: #000;
+}
+
+#discover .dis-swip {
+  height: 80vh;
+  position: relative;
+}
+
+#discover .dis-swip .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+#discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-left {
+  width: 50%;
+  border: 2px 1px 2px 0;
+}
+
+#discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-left img {
+  width: 100%;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right {
+  width: 50%;
+  width: 50%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+#discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-tit {
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+#discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-des {
+  width: 80%;
+  font-size: 26px;
+  font-family: 'Bespoke Serif', sans-serif;
+  padding-top: 20px;
+}
+
+#discover .dis-swip .swiper-container .swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+}
+
+#discover .dis-swip .swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 20px;
+  color: #000;
+  opacity: 1;
+  background: transparent;
+  border: #000 solid 1px;
+}
+
+#discover .dis-swip .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #000;
+}
+
+#discover .dis-week {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #8C5582;
+  border: #000 2px solid;
+}
+
+#discover .dis-week .dis-we-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#discover .dis-week .dis-we-top .dis-we-top-left {
+  width: 100%;
+  padding: 20px 0 0 20px;
+}
+
+#discover .dis-week .dis-we-top .dis-we-top-left .dis-we-top-left-1 {
+  width: 70%;
+  background-color: #fff;
+  font-weight: bolder;
+}
+
+#discover .dis-week .dis-we-top .dis-we-top-left .dis-we-top-left-2 {
+  font-size: 50px;
+  line-height: 40px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+#discover .dis-week .dis-we-top .dis-we-top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 20px 20px 0 0;
+}
+
+#discover .dis-week .dis-we-top .dis-we-top-right img {
+  width: 15%;
+}
+
+#discover .dis-week .dis-we-mid {
+  text-align: center;
+}
+
+#discover .dis-week .dis-we-bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#discover .dis-week .dis-we-bot .dis-we-bot-left {
+  width: 60%;
+  width: 70%;
+  font-size: 20px;
+  font-family: 'Bespoke Serif', sans-serif;
+  padding: 0 0 20px 20px;
+}
+
+#discover .dis-week .dis-we-bot .dis-we-bot-right {
+  padding: 0 20px 20px 0;
+  text-decoration: underline;
+}
+
+#discover .dis-week .dis-we-bot .dis-we-bot-right a {
+  color: #000;
+  font-weight: bolder;
+}
+
+@media all and (max-width: 1050px) {
+  #discover .dis-choose ul li > * {
+    font-size: 60px;
+  }
+  #discover .dis-swip {
+    height: 100%;
+    position: relative;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-left {
+    width: 100%;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-left img {
+    width: 100%;
+    height: 70vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right {
+    width: 100%;
+    height: 40vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-tit {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 20px;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-des {
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Bespoke Serif', sans-serif;
+    padding-top: 20px;
+  }
+  #discover .dis-week {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #8C5582;
+    border: #000 2px solid;
+  }
+  #discover .dis-week .dis-we-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-left {
+    width: 100%;
+    padding: 20px 0 0 20px;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-left .dis-we-top-left-1 {
+    width: 130%;
+    background-color: #fff;
+    font-weight: bolder;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-left .dis-we-top-left-2 {
+    font-size: 50px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 20px 20px 0 0;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-right img {
+    width: 15%;
+    height: 50%;
+  }
+  #discover .dis-week .dis-we-mid {
+    text-align: center;
+  }
+  #discover .dis-week .dis-we-mid img {
+    width: 80%;
+  }
+  #discover .dis-week .dis-we-bot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #discover .dis-week .dis-we-bot .dis-we-bot-left {
+    display: none;
+  }
+  #discover .dis-week .dis-we-bot .dis-we-bot-right {
+    padding: 0 20px 20px 0;
+    text-decoration: underline;
+    margin-left: 25px;
+  }
+  #discover .dis-week .dis-we-bot .dis-we-bot-right a {
+    color: #000;
+    font-weight: bolder;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #discover .dis-choose ul li > * {
+    font-size: 25px;
+  }
+  #discover .dis-swip {
+    height: 100%;
+    position: relative;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-left {
+    width: 100%;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-left img {
+    width: 100%;
+    height: 70vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right {
+    width: 100%;
+    height: 80vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-top {
+    width: 40%;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-tit {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+  }
+  #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-des {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Bespoke Serif', sans-serif;
+    padding-top: 20px;
+  }
+  #discover .dis-week {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #8C5582;
+    border: #000 2px solid;
+  }
+  #discover .dis-week .dis-we-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-left {
+    width: 100%;
+    padding: 20px 0 0 20px;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-left .dis-we-top-left-1 {
+    width: 80%;
+    background-color: #fff;
+    font-weight: bolder;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-left .dis-we-top-left-2 {
+    font-size: 50px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 20px 20px 0 0;
+  }
+  #discover .dis-week .dis-we-top .dis-we-top-right img {
+    display: none;
+  }
+  #discover .dis-week .dis-we-mid {
+    text-align: center;
+  }
+  #discover .dis-week .dis-we-mid img {
+    width: 80%;
+  }
+  #discover .dis-week .dis-we-bot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #discover .dis-week .dis-we-bot .dis-we-bot-left {
+    display: none;
+  }
+  #discover .dis-week .dis-we-bot .dis-we-bot-right {
+    padding: 0 20px 20px 0;
+    text-decoration: underline;
+    margin-left: 25px;
+  }
+  #discover .dis-week .dis-we-bot .dis-we-bot-right a {
+    color: #000;
+    font-weight: bolder;
+  }
+}
+
+#stories .stories-choose ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#stories .stories-choose ul li > * {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  text-decoration: none;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+#stories .stories-choose ul li .sto__active {
+  color: #000;
+}
+
+#stories .stories-grid .main-container .category-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+#stories .stories-grid .main-container .category-head ul {
+  list-style-type: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#stories .stories-grid .main-container .category-head .category-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #000;
+  padding: 12px;
+  color: #fff;
+  margin: 5px;
+  width: 200px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#stories .stories-grid .main-container .category-head .category-title li {
+  padding: 0 10px;
+}
+
+#stories .stories-grid .main-container .category-head .category-title:hover {
+  opacity: 0.7;
+}
+
+#stories .stories-grid .main-container .posts-collect .posts-main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: repeat(2, 1fr);
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 > *,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 > * {
+  border: 1px #000 solid;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c {
+  position: relative;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-img .grid-img-top,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-img .grid-img-top {
+  width: 30%;
+  background-color: #fff;
+  font-weight: bolder;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a {
+  position: relative;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-img img {
+  width: 100%;
+  max-height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-tit {
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 150px;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-des {
+  width: 80%;
+  font-size: 20px;
+  font-family: 'Bespoke Serif', sans-serif;
+  padding-top: 80px;
+  text-align: center;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-date {
+  padding-top: 80px;
+  font-size: 16px;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c {
+  position: relative;
+  height: 700px;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other {
+  top: 0;
+  margin-left: 20px;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-tit,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-tit {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-des,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-des {
+  font-size: 20px;
+  font-family: 'Bespoke Serif', sans-serif;
+  padding-top: 20px;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-date,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-date {
+  padding-top: 80px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-img img {
+  max-height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-img img,
+#stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-img img {
+  max-height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media all and (max-width: 1050px) {
+  #stories .stories-choose ul li > * {
+    font-size: 60px;
+  }
+  #stories .stories-grid .main-container .category-head .category-title {
+    width: 150px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a {
+    position: relative;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-img img {
+    width: 100%;
+    max-height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other {
+    position: absolute;
+    top: 50px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-tit {
+    padding-top: 100px;
+    text-align: center;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-des {
+    padding-top: 40px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-date {
+    padding-top: 80px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c {
+    position: relative;
+    height: 550px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other {
+    top: 0;
+    margin-left: 20px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-tit {
+    font-size: 30px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-des {
+    font-size: 18px;
+    font-family: 'Bespoke Serif', sans-serif;
+    padding-top: 20px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-date {
+    padding-top: 80px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-img img {
+    max-height: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-img img {
+    max-height: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #stories .stories-choose ul li > * {
+    font-size: 30px;
+  }
+  #stories .stories-grid {
+    width: 100vw;
+  }
+  #stories .stories-grid .main-container .category-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 30px 0;
+  }
+  #stories .stories-grid .main-container .category-head ul {
+    list-style-type: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #stories .stories-grid .main-container .category-head .category-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #000;
+    padding: 5px;
+    color: #fff;
+    margin: 5px;
+    width: 80px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  #stories .stories-grid .main-container .category-head .category-title li {
+    padding: 0 2px;
+  }
+  #stories .stories-grid .main-container .category-head .category-title:hover {
+    opacity: 0.7;
+  }
+  #stories .stories-grid .main-container .posts-collect .posts-main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c {
+    position: relative;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-img .grid-img-top,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-img .grid-img-top {
+    width: 30%;
+    background-color: #fff;
+    font-weight: bolder;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a {
+    position: relative;
+    height: 450px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-img img {
+    width: 100%;
+    height: 800px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-tit {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 80px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-des {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Bespoke Serif', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-a .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-date {
+    padding-top: 80px;
+    font-size: 16px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c {
+    position: relative;
+    height: 600px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other {
+    top: 0;
+    margin-left: 20px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-tit,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-tit {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-des,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-des {
+    font-size: 20px;
+    font-family: 'Bespoke Serif', sans-serif;
+    padding-top: 20px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-date,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-date {
+    padding-top: 80px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-b .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-img img {
+    max-height: 400px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-2 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-3 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-4 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-5 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-6 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-7 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-8 .grid-c .grid-img img,
+  #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-img img {
+    max-height: 300px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+#lists .lists-choose ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#lists .lists-choose ul li > * {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  text-decoration: none;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+#lists .lists-choose ul li .list__active {
+  color: #000;
+}
+
+#lists .list-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+#lists .list-grid .list-grid-all {
+  height: 480px;
+  position: relative;
+  border: 1px solid #000;
+}
+
+#lists .list-grid .list-grid-all .list-grid-all-img img {
+  width: 100%;
+}
+
+#lists .list-grid .list-grid-all .list-grid-all-tit {
+  font-size: 28px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+#lists .list-grid .list-grid-all .list-grid-all-des {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#lists .list-grid .list-grid-all .list-grid-all-bot {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 10px;
+}
+
+#lists .list-grid .list-grid-all .list-grid-all-bot .list-grid-all-bot-1 {
+  width: 5%;
+}
+
+#lists .list-grid .list-grid-all .list-grid-all-bot .list-grid-all-bot-1 img {
+  width: 100%;
+  border: #000 solid 2px;
+  border-radius: 50%;
+}
+
+#lists .list-grid .list-grid-all .list-grid-all-bot .list-grid-all-bot-2 {
+  padding-left: 10px;
+}
+
+@media all and (max-width: 1050px) {
+  #lists .lists-choose ul li > * {
+    font-size: 60px;
+  }
+  #lists .list-grid .list-grid-all {
+    height: 350px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #lists .lists-choose ul li > * {
+    font-size: 25px;
+  }
+  #lists .list-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  #lists .list-grid .list-grid-all {
+    height: 350px;
+  }
 }
 
 .swiper-container-3d .swiper-slide-shadow-left,

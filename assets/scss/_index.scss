@@ -5,6 +5,7 @@ main {
     .hero {
         display: flex;
         position: relative;
+        margin-bottom: 50px;
 
         .hero-extra {
             display: none;
@@ -149,6 +150,7 @@ main {
         display: flex;
         // grid-auto-flow: column;
         // margin-top: 200px;
+        height: 120vh;
 
         .vinyl-right {
             order: 1;
@@ -215,6 +217,7 @@ main {
 
             img {
                 height: 100%;
+                width: 100%;
             }
         }
     }
@@ -302,7 +305,10 @@ main {
         grid-template-columns: repeat(auto-fit, 25%);
         grid-auto-rows: minmax(300px, 330px);
         overflow: hidden;
-
+        img {
+            width: 100%;
+            height: auto;
+        }
         >* {
             border: #000 1px solid;
         }
