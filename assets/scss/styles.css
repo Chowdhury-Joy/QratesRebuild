@@ -1149,7 +1149,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     padding: 30px 35px 0px 30px;
   }
   main .hero .hero-right .hero-ri-1 .hero-ri-1-img img {
-    width: 120%;
+    width: 100%;
     margin-left: 10%;
     border: #000 2px solid;
     -webkit-transform: rotate(5deg) translate3d(0, 0, 0);
@@ -1192,6 +1192,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100%;
     background-color: #FFF804;
   }
   main .far-lim .far-lim-left {
@@ -1199,7 +1200,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
         -ms-flex-order: 1;
             order: 1;
     width: 100%;
-    height: 70vh;
+    height: 500px;
     padding: 5% 0 0 5%;
     position: relative;
     border: none;
@@ -1300,7 +1301,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     text-align: center;
   }
   main .studio-swiper .studio-swiper-2 {
-    width: 80%;
+    width: 100%;
   }
   main .studio-swiper .studio-swiper-3 {
     display: block;
@@ -3264,7 +3265,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 90%;
+    max-width: 98%;
     margin: auto;
   }
 }

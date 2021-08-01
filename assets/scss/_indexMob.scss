@@ -64,7 +64,7 @@
                         padding: 30px 35px 0px 30px; //?? to stop from that weird blank space over image...
 
                         img {
-                            width: 120%;
+                            width: 100%;
                             margin-left: 10%;
                             border: #000 2px solid;
                             transform: rotate(5deg) translate3d(0, 0, 0);
@@ -127,6 +127,7 @@
         .far-lim {
             display: flex;
             flex-direction: column;
+            height: 100%;
             // grid-auto-flow: column;
             // margin-top: 200px;
             background-color: #FFF804;
@@ -135,7 +136,7 @@
             .far-lim-left {
                 order: 1;
                 width: 100%;
-                height: 70vh;
+                height: 500px;
                 padding: 5% 0 0 5%;
                 position: relative;
                 border: none;
@@ -248,7 +249,8 @@
             }
 
             .studio-swiper-2 {
-                width: 80%;
+                width: 100%;
+                // height: 20%;
             }
 
             .studio-swiper-3 {
