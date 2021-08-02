@@ -1,0 +1,319 @@
+#why {
+    .why-hero-1 {
+        display: flex;
+
+        .why-he-1-left {
+            padding-top: 150px;
+
+            .why-he-1-le-top {
+                @extend .button-2;
+                font-size: 16px;
+            }
+
+            .why-he-1-le-mid {
+                font-size: 70px;
+                font-family: 'Clash Grotesk', sans-serif;
+            }
+
+            .why-he-1-le-bot {
+                width: 80%;
+                font-family: 'Cabinet Grotesk',
+                    sans-serif;
+                font-size: 28px;
+            }
+        }
+
+        .why-he-1-right {
+            width: 100%;
+            padding-right: 50px;
+
+            img {
+                width: 100%;
+                border: #000 2px solid;
+                transform: rotate(5deg) translate3d(0, 0, 0);
+
+            }
+        }
+    }
+
+    .why-hero-2 {
+        display: flex;
+        margin-top: -150px;
+
+        img {
+            &:nth-child(1) {
+                width: 60%;
+                height: 50%;
+                border: #000 2px solid;
+                transform: rotate(-5deg) translate3d(0, 0, 0);
+            }
+
+            &:nth-child(2) {
+                margin-top: 200px;
+                width: 20%;
+                height: 20%;
+                transform: rotate(5deg) translate3d(0, 0, 0);
+            }
+        }
+    }
+
+    .small {
+        margin-top: 20px;
+        border: 2px #000 solid;
+
+        p {
+            padding: 80px;
+            text-align: center;
+            font-family: 'Cabinet Grotesk',
+                sans-serif;
+            font-size: 22px;
+        }
+    }
+
+    .why-two {
+        display: grid;
+        grid-auto-flow: column;
+
+        .why-two-opt {
+            background-color: #FFF804;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 120%;
+
+            >* {
+                margin-top: 35px
+            }
+
+            .why-two-opt-1 {
+                @extend .button-2;
+                background-color: #fff;
+                width: 30%;
+            }
+
+            .why-two-opt-2 {
+                font-family: 'Clash Grotesk',
+                    sans-serif;
+                font-size: 60px;
+            }
+
+            .why-two-opt-3 {
+                width: 70%;
+                text-align: center;
+            }
+
+            .why-two-opt-4 {
+
+                img {
+                    width: 350px;
+                }
+            }
+
+            .why-two-opt-5 {
+                @extend .button-2;
+                border-radius: 20px;
+            }
+        }
+
+        .why-two-grey {
+            background-color: #81836C;
+
+            .why-two-opt-4 {
+
+                img {
+                    width: 450px;
+                }
+            }
+        }
+    }
+
+    .service {
+        display: flex;
+        margin-top: 200px;
+
+        .ser-left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >* {
+                margin-top: 35px;
+            }
+
+            .ser-le-1 {
+                @extend .button-2;
+            }
+
+            .ser-le-2 {
+                display: block;
+                font-weight: 900;
+                font-size: 40px;
+                font-weight: 900;
+                letter-spacing: 2.50px;
+                word-spacing: 8px;
+                line-height: 40px;
+                font-family: 'Clash Display',
+                    sans-serif;
+                color: transparent;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #000;
+            }
+
+            .ser-le-3 {
+                img {
+                    width: 350px;
+                    transform: rotate(-5deg) translate3d(0, 0, 0);
+                    border: #000 1px solid;
+                }
+            }
+
+            .ser-le-4 {
+                font-family: 'Alphino',
+                    sans-serif;
+                width: 60%;
+            }
+
+            .ser-le-5 {
+                @extend .button-2;
+                border-radius: 20px;
+            }
+        }
+
+        .ser-right {
+            width: 50%;
+
+            * {
+                box-sizing: border-box;
+
+                &::before,
+                &::after {
+                    box-sizing: border-box;
+                }
+            }
+
+            .container {
+                margin: 0 auto;
+                padding: 0px;
+                width: 48rem;
+
+                h2 {
+                    border: 1px #000 solid;
+                    padding: 30px 10px;
+                    color: #fff;
+                    background-color: #000;
+                }
+            }
+
+            .accordion {
+                .accordion-item {
+                    border: 1px solid #000000;
+                    padding: 0 10px;
+
+                    button[aria-expanded='true'] {
+                        border-bottom: 1px solid #000;
+                    }
+                }
+
+                button {
+                    position: relative;
+                    display: block;
+                    text-align: left;
+                    width: 100%;
+                    padding: 1em 0;
+                    color: #000;
+                    font-size: 1.15rem;
+                    font-weight: 400;
+                    border: none;
+                    background: none;
+                    outline: none;
+
+                    &:hover,
+                    &:focus {
+                        cursor: pointer;
+                        color: #000;
+
+                        &::after {
+                            cursor: pointer;
+                            color: #000;
+                            border: 1px solid #000;
+                        }
+                    }
+
+                    .accordion-title {
+                        padding: 1em 1.5em 1em 0;
+                        font-family: 'Alphino',
+                            sans-serif;
+                    }
+
+                    .icon {
+                        display: inline-block;
+                        position: absolute;
+                        top: 18px;
+                        right: 0;
+                        width: 22px;
+                        height: 22px;
+                        border: 1px solid;
+                        border-radius: 22px;
+
+                        &::before {
+                            display: block;
+                            position: absolute;
+                            content: '';
+                            top: 9px;
+                            left: 5px;
+                            width: 10px;
+                            height: 2px;
+                            background: currentColor;
+                        }
+
+                        &::after {
+                            display: block;
+                            position: absolute;
+                            content: '';
+                            top: 5px;
+                            left: 9px;
+                            width: 2px;
+                            height: 10px;
+                            background: currentColor;
+                        }
+                    }
+                }
+
+                button[aria-expanded='true'] {
+                    color: #000;
+
+                    .icon {
+                        &::after {
+                            width: 0;
+                        }
+                    }
+
+                    +.accordion-content {
+                        opacity: 1;
+                        max-height: 9em;
+                        transition: all 200ms linear;
+                        will-change: opacity, max-height;
+                    }
+                }
+
+                .accordion-content {
+                    opacity: 0;
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: opacity 200ms linear, max-height 200ms linear;
+                    will-change: opacity, max-height;
+
+                    p {
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin: 2em 0;
+                        font-family: 'Alphino',
+                            sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}

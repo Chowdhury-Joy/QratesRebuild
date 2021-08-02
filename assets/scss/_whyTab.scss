@@ -1,0 +1,124 @@
+@media all and (max-width:1050px) {
+    #why {
+        .why-hero-1 {
+            display: flex;
+            flex-direction: column;
+
+            .why-he-1-left {
+                padding-top: 100px;
+                padding-left: 50px;
+
+                .why-he-1-le-top {
+                    // @extend .button-2;
+                    font-size: 12px;
+                }
+
+                .why-he-1-le-mid {
+                    font-size: 40px;
+                    font-family: 'Clash Grotesk', sans-serif;
+                }
+
+                .why-he-1-le-bot {
+                    width: 100%;
+                    font-family: 'Cabinet Grotesk',
+                        sans-serif;
+                    font-size: 20px;
+                }
+            }
+
+            .why-he-1-right {
+                width: 100%;
+                padding-left: 50px;
+                padding-top: 50px;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+
+        //!! why two starts
+
+
+        .why-two {
+            display: flex;
+            flex-direction: column;
+
+            .why-two-opt {
+                >* {
+                    margin-top: 25px
+                }
+
+                .why-two-opt-5 {
+                    // @extend .button-2;
+                    border-radius: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        //!! service starts
+
+        .service {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .ser-left {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                >* {
+                    margin-top: 35px;
+                }
+
+                .ser-le-5 {
+                    // @extend .button-2;
+                    border-radius: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .ser-right {
+                width: 100%;
+                // overflow-x: hidden;
+
+                * {
+                    box-sizing: border-box;
+
+                    &::before,
+                    &::after {
+                        box-sizing: border-box;
+                    }
+                }
+
+                .container {
+                    width: 100%;
+
+                    h2 {
+                        border: 1px #000 solid;
+                        padding: 30px 10px;
+                        color: #fff;
+                        background-color: #000;
+                    }
+                }
+
+                .accordion {
+
+                    .accordion-content {
+
+                        p {
+                            font-size: 16px;
+                            font-weight: 500;
+                            margin: 2em 0;
+                            font-family: 'Alphino',
+                                sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
