@@ -35,13 +35,37 @@
                 <img src="./assets/img/logo.svg" alt="">
             </a>
 
+            <div id="mySearch" class="search">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="search-content">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" placeholder="Search by artist, keyword or genre" name="search">
+                    <div class="popular">
+                        <span>Popular searches</span>
+                        <li>
+                            <ul>CHILL</ul>
+                            <ul>HIPHOP</ul>
+                            <ul>ELECTRO</ul>
+                            <ul>INDIE</ul>
+                            <ul>FUNK</ul>
+                            <ul>ROCK</ul>
+                        </li>
+                    </div>
+                </div>
+
+            </div>
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link">DISCOVER</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">SEARCH</a>
+                        <a href="#search" class="nav__link" onclick="openSearch()">SEARCH</a>
                     </li>
                     <li class="nav__item">
                         <a href="why.html" class="nav__link">WHY QRATES</a>

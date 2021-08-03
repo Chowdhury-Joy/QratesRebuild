@@ -11,6 +11,18 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
+/*==================== SEARCH ====================*/
+
+/* Open when someone clicks on the span element */
+function openSearch() {
+    document.getElementById("mySearch").style.display = "block";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeSearch() {
+    document.getElementById("mySearch").style.display = "none";
+}
+
 /*==================== SHOW MENU ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),

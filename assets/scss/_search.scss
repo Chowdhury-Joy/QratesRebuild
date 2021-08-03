@@ -1,0 +1,120 @@
+.search {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.search-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.search a:hover,
+.search a:focus {
+    color: #f1f1f1;
+}
+
+.search .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+//!!main search
+
+
+.search {
+    // align-self: center;
+
+    .search-content {
+
+
+        input[type=text] {
+            padding: 25px;
+            margin-top: 8px;
+            font-size: 40px;
+            border: none;
+            width: calc(100% - 10%);
+            margin: auto;
+            border-bottom: 2px #000 solid;
+            font-family: 'Clash Display',
+                sans-serif;
+
+
+
+            color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #000;
+        }
+
+        button {
+            .fa-search {
+                font-size: 50px;
+                background-color: #fff;
+            }
+
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        .popular {
+            display: flex;
+            // justify-content: center;
+
+            width: calc(100% - 10%);
+            margin: auto;
+            margin-top: 20px;
+
+            span {
+                padding-right: 20px;
+            }
+
+            li {
+                display: flex;
+
+
+                ul {
+                    padding: 10px;
+                    @extend .button-2;
+                    border-radius: 20px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-height: 450px) {
+    .search a {
+        font-size: 20px
+    }
+
+    .search .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
