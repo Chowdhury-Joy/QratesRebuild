@@ -530,8 +530,7 @@ input {
   width: calc(100% - 10%);
   margin: auto;
   border-bottom: 2px #000 solid;
-  font-family: 'Clash Display',
- sans-serif;
+  font-family: 'Clash Display', sans-serif;
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
@@ -608,8 +607,7 @@ main .hero .hero-left .hero-le-header {
   font-weight: 900;
   letter-spacing: 0.95px;
   line-height: 70px;
-  font-family: 'Clash Display',
- sans-serif;
+  font-family: 'Clash Display', sans-serif;
 }
 
 main .hero .hero-left .hero-le-header span {
@@ -625,8 +623,7 @@ main .hero .hero-left .hero-le-des {
   line-height: 34px;
   width: 80%;
   margin-top: 40px;
-  font-family: 'Bespoke Serif',
- serif;
+  font-family: 'Bespoke Serif', serif;
 }
 
 main .hero .hero-right {
@@ -752,8 +749,7 @@ main .far-lim .far-lim-left .far-lim-left-tit {
 main .far-lim .far-lim-left .far-lim-left-des {
   width: 70%;
   font-size: 26px;
-  font-family: 'Bespoke Serif',
- sans-serif;
+  font-family: 'Bespoke Serif', sans-serif;
 }
 
 main .far-lim .far-lim-left .far-lim-left-opt {
@@ -924,8 +920,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     width: 80%;
     margin: auto;
     margin-top: 50px;
-    font-family: 'Bespoke Serif',
- serif;
+    font-family: 'Bespoke Serif', serif;
   }
   main .hero .hero-left {
     width: 100%;
@@ -939,8 +934,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     font-weight: 900;
     letter-spacing: 0.95px;
     line-height: 70px;
-    font-family: 'Clash Display',
- sans-serif;
+    font-family: 'Clash Display', sans-serif;
   }
   main .hero .hero-left .hero-le-header span {
     color: transparent;
@@ -1053,8 +1047,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   main .far-lim .far-lim-left .far-lim-left-des {
     width: 70%;
     font-size: 26px;
-    font-family: 'Bespoke Serif',
- sans-serif;
+    font-family: 'Bespoke Serif', sans-serif;
   }
   main .far-lim .far-lim-left .far-lim-left-opt {
     display: -webkit-box;
@@ -1129,7 +1122,6 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     display: block;
     position: absolute;
     width: 50%;
-    jpg
     height: 40px;
     bottom: -32px;
     right: 20px;
@@ -1211,8 +1203,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     width: 90%;
     margin: auto;
     margin-top: 50px;
-    font-family: 'Bespoke Serif',
- serif;
+    font-family: 'Bespoke Serif', serif;
     text-align: center;
   }
   main .hero .hero-left {
@@ -1227,8 +1218,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     font-weight: 900;
     letter-spacing: 0.95px;
     line-height: 50px;
-    font-family: 'Clash Display',
- sans-serif;
+    font-family: 'Clash Display', sans-serif;
     width: 90%;
   }
   main .hero .hero-left .hero-le-header span {
@@ -1324,8 +1314,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   main .far-lim .far-lim-left .far-lim-left-des {
     width: 90%;
     font-size: 20px;
-    font-family: 'Bespoke Serif',
- sans-serif;
+    font-family: 'Bespoke Serif', sans-serif;
   }
   main .far-lim .far-lim-left .far-lim-left-opt {
     display: -webkit-box;
@@ -1687,8 +1676,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-des {
   width: 80%;
   font-size: 26px;
-  font-family: 'Bespoke Serif',
- sans-serif;
+  font-family: 'Bespoke Serif', sans-serif;
   padding-top: 20px;
 }
 
@@ -1785,8 +1773,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   width: 60%;
   width: 70%;
   font-size: 20px;
-  font-family: 'Bespoke Serif',
- sans-serif;
+  font-family: 'Bespoke Serif', sans-serif;
   padding: 0 0 20px 20px;
 }
 
@@ -1845,8 +1832,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-des {
     width: 100%;
     font-size: 22px;
-    font-family: 'Bespoke Serif',
- sans-serif;
+    font-family: 'Bespoke Serif', sans-serif;
     padding-top: 20px;
   }
   #discover .dis-week {
@@ -1972,8 +1958,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   #discover .dis-swip .swiper-container .swiper-wrapper .swiper-slide .swi-sli-right .swi-sli-ri-des {
     width: 100%;
     font-size: 18px;
-    font-family: 'Bespoke Serif',
- sans-serif;
+    font-family: 'Bespoke Serif', sans-serif;
     padding-top: 20px;
   }
   #discover .dis-week {
@@ -2358,8 +2343,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-des {
   width: 80%;
   font-size: 20px;
-  font-family: 'Bespoke Serif',
- sans-serif;
+  font-family: 'Bespoke Serif', sans-serif;
   padding-top: 80px;
   text-align: center;
 }
@@ -2462,8 +2446,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-des,
 #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-des {
   font-size: 20px;
-  font-family: 'Bespoke Serif',
- sans-serif;
+  font-family: 'Bespoke Serif', sans-serif;
   padding-top: 20px;
 }
 
@@ -2743,8 +2726,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-des,
   #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-des {
     font-size: 18px;
-    font-family: 'Bespoke Serif',
- sans-serif;
+    font-family: 'Bespoke Serif', sans-serif;
     padding-top: 20px;
   }
   #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-date,
@@ -3021,8 +3003,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-a .grid-other .grid-oth-des {
     width: 100%;
     font-size: 18px;
-    font-family: 'Bespoke Serif',
- sans-serif;
+    font-family: 'Bespoke Serif', sans-serif;
     padding-top: 40px;
     text-align: center;
   }
@@ -3120,8 +3101,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-b .grid-other .grid-oth-des,
   #stories .stories-grid .main-container .posts-collect .sto-grid-9 .grid-c .grid-other .grid-oth-des {
     font-size: 20px;
-    font-family: 'Bespoke Serif',
- sans-serif;
+    font-family: 'Bespoke Serif', sans-serif;
     padding-top: 20px;
   }
   #stories .stories-grid .main-container .posts-collect .sto-grid-1 .grid-b .grid-other .grid-oth-date,
@@ -3297,8 +3277,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 
 #why .why-hero-1 .why-he-1-left .why-he-1-le-bot {
   width: 80%;
-  font-family: 'Cabinet Grotesk',
- sans-serif;
+  font-family: 'Cabinet Grotesk', sans-serif;
   font-size: 28px;
 }
 
@@ -3345,8 +3324,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 #why .small p {
   padding: 80px;
   text-align: center;
-  font-family: 'Cabinet Grotesk',
- sans-serif;
+  font-family: 'Cabinet Grotesk', sans-serif;
   font-size: 22px;
 }
 
@@ -3384,8 +3362,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 }
 
 #why .why-two .why-two-opt .why-two-opt-2 {
-  font-family: 'Clash Grotesk',
- sans-serif;
+  font-family: 'Clash Grotesk', sans-serif;
   font-size: 60px;
 }
 
@@ -3443,8 +3420,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   letter-spacing: 2.50px;
   word-spacing: 8px;
   line-height: 40px;
-  font-family: 'Clash Display',
- sans-serif;
+  font-family: 'Clash Display', sans-serif;
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
@@ -3458,8 +3434,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 }
 
 #why .service .ser-left .ser-le-4 {
-  font-family: 'Alphino',
- sans-serif;
+  font-family: 'Alphino', sans-serif;
   width: 60%;
 }
 
@@ -3530,8 +3505,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
 
 #why .service .ser-right .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
-  font-family: 'Alphino',
- sans-serif;
+  font-family: 'Alphino', sans-serif;
 }
 
 #why .service .ser-right .accordion button .icon {
@@ -3596,8 +3570,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   font-size: 18px;
   font-weight: 500;
   margin: 2em 0;
-  font-family: 'Alphino',
- sans-serif;
+  font-family: 'Alphino', sans-serif;
 }
 
 @media all and (max-width: 1050px) {
@@ -3623,8 +3596,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   }
   #why .why-hero-1 .why-he-1-left .why-he-1-le-bot {
     width: 100%;
-    font-family: 'Cabinet Grotesk',
- sans-serif;
+    font-family: 'Cabinet Grotesk', sans-serif;
     font-size: 20px;
   }
   #why .why-hero-1 .why-he-1-right {
@@ -3705,8 +3677,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     font-size: 16px;
     font-weight: 500;
     margin: 2em 0;
-    font-family: 'Alphino',
- sans-serif;
+    font-family: 'Alphino', sans-serif;
   }
 }
 
@@ -3734,8 +3705,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   }
   #why .why-hero-1 .why-he-1-left .why-he-1-le-bot {
     width: 100%;
-    font-family: 'Cabinet Grotesk',
- sans-serif;
+    font-family: 'Cabinet Grotesk', sans-serif;
     font-size: 20px;
   }
   #why .why-hero-1 .why-he-1-right {
@@ -3773,8 +3743,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
   #why .small p {
     padding: 10px;
     text-align: center;
-    font-family: 'Cabinet Grotesk',
- sans-serif;
+    font-family: 'Cabinet Grotesk', sans-serif;
     font-size: 18px;
   }
   #why .why-two {
@@ -3811,8 +3780,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     width: 50%;
   }
   #why .why-two .why-two-opt .why-two-opt-2 {
-    font-family: 'Clash Grotesk',
- sans-serif;
+    font-family: 'Clash Grotesk', sans-serif;
     font-size: 40px;
   }
   #why .why-two .why-two-opt .why-two-opt-3 {
@@ -3878,8 +3846,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     border: #000 1px solid;
   }
   #why .service .ser-left .ser-le-4 {
-    font-family: 'Alphino',
- sans-serif;
+    font-family: 'Alphino', sans-serif;
     width: 95%;
   }
   #why .service .ser-left .ser-le-5 {
@@ -3911,8 +3878,7 @@ main .index-show .ind-show-8 .ind-show-8-bot {
     font-size: 16px;
     font-weight: 500;
     margin: 2em 0;
-    font-family: 'Alphino',
- sans-serif;
+    font-family: 'Alphino', sans-serif;
   }
 }
 
